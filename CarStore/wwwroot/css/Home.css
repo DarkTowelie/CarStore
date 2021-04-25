@@ -1,0 +1,57 @@
+﻿header, main, footer
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #2F353B;
+    height: 100px;
+}
+
+main {
+    background-color: #D5D5D5;
+    height: 700px;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+}
+
+header ul
+{
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+header li
+{
+    display: inline-block;
+    padding: 10px;
+}
+
+header li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #80DAEB;
+}
+
+header li a:hover {
+    color: white;
+    cursor: pointer;
+    transition: ease 2s;
+}
+
+#wrap
+{
+    width: 100%;
+}
+
+h1
+{
+    margin: 0;
+}
