@@ -1,42 +1,22 @@
 ﻿@{
-    Layout = null;
+    ViewData["Title"] = "Cars from Russia";
 }
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Магазин автомобилей</title>
-        <link rel="stylesheet" type="text/css" href="~/css/Home.css" media="screen"/>
-    </head>
-    <body>
-        <div id="wrap">
-            <header>
-                <ul>
-                    <li><a href="/Home/Index">ГЛАВНАЯ</a></li>
-                    <li><a href="/Home/Cars">АВТОМОБИЛИ</a></li>
-                    <li><a href="/Home/SportCars">СПОРТИВНЫЕ</a></li>
-                </ul>
-            </header>
-            <main>
-                <h1>Отечественные автомобили</h1>
-                <table>
-                    <tr>
-                        <td><p>Название автомобиля</p></td>
-                        <td><p>Модель</p></td>
-                        <td><p>Цена</p></td>
-                        <td></td>
-                    </tr>
-                    @foreach (var b in ViewBag.cars)
-                    {
-                        <tr>
-                            <td><p>@b.Name</p></td>
-                            <td><p>@b.Model</p></td>
-                            <td><p>@b.Price</p></td>
-                        </tr>
-                    }
-                </table>
-        </main>
-        <footer></footer>
-        </div>
-    </body>
-</html>
+<div>
+    <h1>Отечественные автомобили</h1>
+    <table>
+        <tr>
+            <th><p>Название автомобиля</p></th>
+            <th><p>Модель</p></th>
+            <th><p>Цена</p></th>
+        </tr>
+        @foreach (var b in ViewBag.cars)
+        {
+            <tr>
+                <td><p>@b.Name</p></td>
+                <td><p>@b.Model</p></td>
+                <td><p>@b.Price</p></td>
+            </tr>
+        }
+    </table>
+</div>

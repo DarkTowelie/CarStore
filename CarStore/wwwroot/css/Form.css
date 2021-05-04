@@ -1,0 +1,27 @@
+﻿header form {
+    margin-top: 30px;
+    margin-right: 40px;
+    float: right;
+}
+
+#search {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #1A153F;
+}
+
+#submit {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 20px;
+    background-color: #80DAEB;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #a1e7ff;
+}

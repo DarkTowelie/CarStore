@@ -14,11 +14,6 @@ namespace CarStore.Controllers
         List<Car> cars = new List<Car>();
         public ActionResult Index()
         {
-            cars.Add(new Car {Name = "Война и мир", Model = "Л. Толстой", Price = 220 });
-            cars.Add(new Car {Name = "Отцы и дети", Model = "И. Тургенев", Price = 180 });
-            cars.Add(new Car {Name = "Чайка", Model = "А. Чехов", Price = 150 });
-
-            ViewBag.Cars = cars;
             return View();
         }
 

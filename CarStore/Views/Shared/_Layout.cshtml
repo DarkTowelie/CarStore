@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Магазин автомобилей</title>
+    <link rel="stylesheet" type="text/css" href="~/css/Home.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/css/Navbar.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/css/Form.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/css/Table.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/css/Card.css" media="screen" />
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <ul>
+                <li><a href="/Home/Index">ГЛАВНАЯ</a></li>
+                <li><a href="/Home/Cars">ОТЕЧЕСТВЕННЫЕ АВТОМОБИЛИ</a></li>
+                <li><a href="/Home/SportCars">СПОРТИВНЫЕ АВТОМОБИЛИ</a></li>
+            </ul>
+
+            <form>
+                <input id="search" type="search" />
+                <input id="submit" type="submit" />
+            </form>
+        </header>
+
+        
+        <main>
+            <div id="content">
+                @RenderBody()
+            </div>
+            
+            <div id="sidebar">
+                <div class="card">
+                    <h1>BMW X6</h1>
+                    <img src="~/img/Image1.jpg" />
+                    <button>КУПИТЬ</button>
+                </div>
+
+                <div class="card">
+                    <h1>AUDI Q8</h1>
+                    <img src="~/img/Image2.jpg" />
+                    <button>КУПИТЬ</button>
+                </div>
+
+            </div>
+        </main>
+        
+
+        <footer></footer>
+    </div>
+</body>
+</html>

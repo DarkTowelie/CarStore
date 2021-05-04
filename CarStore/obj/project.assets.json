@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\VS Csh\\CarStore\\CarStore\\CarStore.csproj",
+      "projectUniqueName": "C:\\Users\\valer\\Desktop\\For Cloning\\CarStore\\CarStore\\CarStore.csproj",
       "projectName": "CarStore",
-      "projectPath": "K:\\VS Csh\\CarStore\\CarStore\\CarStore.csproj",
+      "projectPath": "C:\\Users\\valer\\Desktop\\For Cloning\\CarStore\\CarStore\\CarStore.csproj",
       "packagesPath": "C:\\Users\\valer\\.nuget\\packages\\",
-      "outputPath": "K:\\VS Csh\\CarStore\\CarStore\\obj\\",
+      "outputPath": "C:\\Users\\valer\\Desktop\\For Cloning\\CarStore\\CarStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Microsoft\\Xamarin\\NuGet\\",

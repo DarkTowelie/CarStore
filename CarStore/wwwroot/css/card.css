@@ -1,0 +1,30 @@
+﻿.card {
+    width: 200px;
+    height: 220px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.card img {
+    width: 180px;
+}
+
+.card button{
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #80DAEB;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #a1e7ff;
+}
