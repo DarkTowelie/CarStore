@@ -50,12 +50,12 @@ table td {
     text-align: center;
 }
 
-table tbody:hover td {
+table:hover td {
     color: transparent;
     text-shadow: 0 0 3px #a09f9d;
 }
 
-table tbody:hover tr:hover td {
+table:hover tr:hover td {
     color: #444444;
     text-shadow: none;
 }
